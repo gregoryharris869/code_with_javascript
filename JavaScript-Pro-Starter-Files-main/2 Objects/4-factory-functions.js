@@ -7,7 +7,7 @@ let programmer = {
   drinkCoffee() {console.log(`${this.name} drinks coffee.`);},
 };
 
-function createProgrammer(name,preferredLanguage ) {
+function createProgrammer(name, preferredLanguage) {
   return {
     name,
     preferredLanguage,
